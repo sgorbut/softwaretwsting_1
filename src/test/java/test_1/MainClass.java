@@ -1,4 +1,4 @@
-package test.java;
+package test.java.test_1;
 
 public class MainClass {
     public int getLocalNumber(){
