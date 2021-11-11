@@ -11,7 +11,7 @@ public class MainClassTest {
     public void testGetClassString(){
         MainClass getStringFromMainClass = new MainClass();
         assertThat("Text, if something wrong",
-            getStringFromMainClass.getClassString(),
-            containsString("Hello"));
+            getStringFromMainClass.getClassString().toLowerCase(),
+            containsString("hello"));
     }
 }
